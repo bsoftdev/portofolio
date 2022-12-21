@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+section{
+    width: 400px;
+    margin-left: 60px;
+}
+section header h2{
+   color: white;
+   text-transform: uppercase;
+}
+section article#art-contato #pc{
+    font-size: 13pt;
+    color: white;
+  
+ }
+ section article div#icones img{
+     width: 20px;
+ }
+ section article div#icones p{
+    font-size: 13pt;
+    color: white;
+}
+section form input,section form textarea{
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 12pt;
+    transition: .5s all ease-in-out;
+}
+section form input{
+    height: 30px;
+    margin-top: 10px;
+    padding: 10px;
+}
+section form input:hover, section form textarea:hover{
+    background-color: white;
+    color: black;
+}
+section textarea{
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 5px;
+}
+section form {
+    padding: 8px;
+    margin: 0 auto;  
+}
+section#sect-form{
+    display: flex;
+    background-color: rgb(44, 43, 43);
+    border-radius: 10px;
+}
+section .bt{
+    width: 128px;
+    padding: 2px;
+}

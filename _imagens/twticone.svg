@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="32px" height="32px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 32 32"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:#FEFEFE}
+    .fil0 {fill:#00B8ED}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_964115782624">
+   <circle class="fil0" cx="16" cy="16" r="16"/>
+   <path class="fil1" d="M6 8c3,3 6,4 10,5 -1,-5 4,-8 8,-5 1,0 2,0 2,-1 0,1 -1,2 -2,3 1,0 2,0 3,-1 -1,1 -1,2 -2,2 0,12 -11,17 -20,12 2,0 5,0 7,-2 -2,0 -4,-1 -5,-3 1,0 2,0 2,0 -2,-1 -3,-2 -3,-5 0,1 1,1 2,1 -2,-2 -3,-4 -2,-6z"/>
+  </g>
+ </g>
+</svg>

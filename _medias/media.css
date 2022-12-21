@@ -1,0 +1,146 @@
+/* RESPONSIVIDADE PARA CELULARES - HOME
+GALAXY S0 10
+*/
+
+@media screen and (max-device-width:360px)   {
+    body, header, section, article, footer {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    body{
+        overflow-x: hidden;
+	
+    }
+    div#bt {
+      width: 100%;
+      height: 30px;
+     
+    }
+    div#bt button,div#bt{
+        display: flex;
+        flex-wrap: wrap;
+        position:absolute;
+        justify-content: flex-end;
+        margin: -20px 15px 0px 3px;
+        background-color: rgb(43, 40, 40);
+    }
+    div#bt button{
+        height: 25px;
+        margin: 1px 5px 0px 3px;
+        cursor: pointer;
+    }
+    button  img{
+        width: 30px;
+    }
+    
+    header#cabecalho{
+        justify-content: center;
+        height: 80px;
+        width: 100%;
+        align-items: center;
+        clip-path: none;
+        background-color: rgb(59, 59, 59);
+    }
+    header h1{
+        animation-name: none;
+        border: none;
+        font-size: 9pt; 
+        margin-top: 30px; 
+    }
+    header#cabecalho div#socias{
+        display: none;
+    }
+    nav#menu{
+        position: absolute;
+        width: 100%;
+        top: 10px;
+        left:10px; 
+        background-color: rgb(109, 53, 53);
+        margin-left: -10px;
+        margin-top: 70px;
+        overflow-x: hidden;
+        height: 0;
+    }
+    nav#menu ul{
+        display:block;
+        list-style: none;
+        width: 100%;
+        margin-top: 5px;
+        margin-left: -10px;
+        
+    }
+     nav#menu ul li {
+            padding: 5px;
+            text-align: center;
+            
+    }
+    nav#menu ul li a{
+        font-size: 8pt;
+        
+    }
+    nav#menu ul li:hover{
+        background-color:transparent;
+        border-radius: 10px;
+    }
+
+    nav#menu ul li:nth-last-of-type(1){
+        background-color:  transparent;
+        border-radius: 10px;
+    }
+    
+    section article{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section article img{
+        max-width: 50%;
+        
+     
+    }
+    section {
+        width: 100%;
+    }
+    article h1:nth-last-of-type(1){
+        font-size: 16pt;
+        color: brown;
+        margin-top: 45px;
+        position: absolute;
+       
+    }
+    article p:nth-last-of-type(1){
+        font-size: 10pt;
+        color: white;
+     }
+     section article figure{
+         text-align: center;
+     }
+     article  figcaption{
+         font-size: 10pt;
+         text-align: center;
+         margin-left: 10px;
+         
+     }
+     article h2:nth-last-of-type(1){
+        font-size: 10pt;
+        color: white;
+        margin-top: 100px;
+        text-align: center; 
+     }
+     footer{
+       height: 80px;
+       margin-top: 70px;
+         
+     }
+     footer img{
+         width: 25px;
+         text-align: center;
+     }
+    
+     footer p{
+        text-align: center;
+        font-size: 8pt;
+        margin: 2px;
+     }
+}

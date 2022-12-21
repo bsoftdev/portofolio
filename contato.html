@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/contato.css">
+    <link rel="stylesheet" href="_medias/media.css">
+    <link rel="stylesheet" href="_medias/media_contato.css">
+</head>
+<body>
+   <header id="cabecalho">
+     <h1>João Baptista</h1>
+     <div id="bt">
+        <button><img src="_icones/menu_rounded_96px.png" alt=""> </button>
+   </div>
+     <nav id="menu">
+         <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="habilidades.html">Habilidades</a></li>
+             <li><a href="servico.html">serviços</a></li>
+             <li><a href="contato.html">Contato</a></li>
+         </ul>
+     </nav>
+
+        <div id="socias">
+                <a href="https://free.facebook.com/joaomanuel.baptista.758"><img src="_imagens/fbicone.svg" alt=""></a>
+                <a href=""><img src="_imagens/twticone.svg" alt=""></a>
+        </div>
+   </header>
+
+   <section>
+       <header>
+           <h2>Entre em contato comigo com confiança</h2>
+       </header>
+
+       <article id="art-contato">
+           <div>
+               <p id="pc">Por favor, preencha o formulário  para entrar em contato, ou ligue ao número abaixo.</p>
+           </div>
+           
+           <div id="icones">
+               <p><img src="_icones/phone_26px.png" alt=""> +244 934314953</p>
+               <p><img src="_icones/mail_48px.png" alt=""> baptistadev411@gmail.com</p>
+           </div>
+       </article>
+   </section>
+
+   <section id="sect-form">
+       <form method="POST" action="mailto:baptistadev411@gmail.com" onsubmit="return validar()">
+
+            <input type="text" name="" id="nome" size="30" maxlength="60" placeholder="Seu nome" required autofocus><br>
+            <input type="email" name="" id="Email"size="30" maxlength="60" placeholder="Seu e-mail" required><br>
+            <input type="text" name="" id="tele" size="30" maxlength="60" placeholder="Seu telefone" required><br>
+             <textarea name="msg" id="msg" cols="29" rows="3" placeholder="Deixa a sua mensagem" required></textarea><br>
+
+             <input type="submit" class="bt" id=btEnvia value="Enviar">
+             <input type="reset" class="bt" id="btLimpa" value="Limpar">
+       </form>
+   </section>
+
+
+
+   <footer>
+    <div>
+        <a href="https://free.facebook.com/joaomanuel.baptista.758"><img src="_icones/facebook_48px.png" alt=""></a> <a href=""><img src="_icones/instagram_48px.png" alt=""></a> <a href=""><img src="_icones/twitter_48px.png" alt=""></a>
+    </div>
+
+    <p>&copy;- Densevolvido pela BSoft- Soluções Tecnológicas</p>
+</footer>
+<script src="_javascript/script.js"></script>
+<script src="_javascript/validacao.js"></script>
+</body>
+</html>

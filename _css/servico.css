@@ -1,0 +1,22 @@
+section article{
+    background-color: rgb(44, 43, 43);
+    margin-left: 50px;
+    padding: 30px 30px;
+    border-radius: 10px;
+    
+}
+section article img{
+    width: 250px;
+}
+section article  p:nth-last-of-type(1){
+    font-size: 12pt;
+}
+section header h2{
+    width: 100%;
+   color: white;
+   text-transform: uppercase;
+   margin: 0px 0px 20px 55px;
+}
+section article :nth-last-of-type(1){
+    color: white;
+}

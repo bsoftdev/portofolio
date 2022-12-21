@@ -1,0 +1,82 @@
+@media screen and (min-width:0px) and (max-width:480px){
+    section{
+        width: 100%;
+        margin: 0px;
+        padding: 10px;
+    }
+    section header {
+        width: 100%;
+    }
+    section header h2{
+        width: 100%;
+        color: white;
+        font-size: 10px;
+        text-transform: uppercase;
+     }
+     section article#art-contato #pc{
+        font-size: 8pt;
+        color: white;
+     }
+     section article div#icones{
+         width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+       
+    }
+     section article div#icones img{
+        width: 15px;
+    }
+    section article div#icones p{
+        font-size: 8pt;
+        color: white;
+        flex-wrap: nowrap;
+    }
+    section article div#icones p:nth-last-of-type(1){
+        margin-top: 3px;
+    }
+    section form {
+        width: 100%;
+        padding: 8px;
+        margin: 0 auto;  
+    }
+    section form input{
+        height: 25px;
+        margin-top: 10px;
+        padding: 10px;
+     }
+     section textarea{
+        margin-top: 10px;
+        height: 50px;
+    }
+    section form input,section form textarea{
+        width: 100%;
+        border-radius: 5px;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        font-size: 8pt;
+        transition: .5s all ease-in-out;
+        padding: 5px;
+    }
+    section#sect-form{
+        border-radius:5px;
+        margin-top: 30px;
+        border-top: 1px solid white;
+        background-color: transparent;
+    }
+    section .bt{
+        width: 50px;
+        padding: 2px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    footer{
+        margin-top: 10px;
+    }
+    footer div{
+       text-align: center;
+    }
+
+   
+}

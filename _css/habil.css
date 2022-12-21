@@ -1,0 +1,52 @@
+
+section, article{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+section {
+    margin: 20px 20px;
+   
+}
+
+header#cabecalho2 h2{
+    width: 100%;
+    font-size: 16pt;
+    animation-name: none;
+    border: none;
+    padding: 10px;
+    margin: 0px 0px 10px 50px;
+    color: white;
+    text-transform: uppercase;
+}
+section article img{
+    margin-top: 20px;
+    width: 250px;
+}
+section article{
+    width: 400px;
+    justify-content: space-between;
+}
+section article {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(44, 43, 43);
+}
+section article:nth-last-of-type(2){
+    margin-left: 50px;
+}
+section article#abil p:nth-last-of-type(1){
+    margin-top: 10px;
+    font-size: 12pt;
+}
+
+section article#abil{
+    margin-left: 100px;
+    color: white;
+    text-transform: uppercase;
+}
+section article#img p{
+   font-size: 13pt;
+  
+}

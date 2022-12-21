@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    width: 100%;
+    background-color: rgb(24, 24, 23);
+    overflow-x: hidden;
+}
+header,section, footer{
+     display: flex;
+     flex-wrap: wrap; 
+     width: 100%;
+}
+
+@keyframes titulo{
+    0%{ top: 0px; left: 0px; border-top-color:white;}
+    25%{top: 0px; left: 0px; border-right-color: rgb(170, 42, 42);}
+    75%{top: 0px; left: 0px; border-bottom-color: rgb(82, 78, 78);}
+    100%{top: 0px; left: 0px; border-left-color: rgb(14, 13, 13);}
+}
+header h1{
+    font-size: 20pt;
+    height: 80px;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    color: white;
+    border: 2px solid white;
+    animation-name: titulo;
+    animation-duration:1s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+
+}
+header#cabecalho{
+    height: 300px;
+    background: rgb(41, 40, 40);
+    justify-content: space-between;
+    padding: 10px;
+    clip-path: polygon(100% 100%, -50% -0%, 100% 0%);
+}
+
+/*rgb(189, 139, 47); cabe   rgb(190, 163, 122); bod*/
+nav#menu{
+    position: relative;
+    top: 120px;
+    left: 170px;
+}
+nav#menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 100%;
+
+}
+nav#menu ul li {
+     padding: 10px;
+     transition: .5s all ease-in-out;
+
+}
+nav#menu ul li a{
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 13pt;
+    text-transform: uppercase;
+    cursor: pointer;
+   
+}
+nav#menu ul li:hover{
+    background-color: rgb(219, 16, 16);
+    border-radius: 10px;
+}
+nav#menu ul li:nth-last-of-type(1){
+    background-color:  rgb(219, 16, 16);
+    border-radius: 10px;
+}
+section {
+    margin: 10px 10px; 
+
+}
+section article{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+  
+}
+ article h1:nth-last-of-type(1){
+    font-size: 40pt;
+    color: brown;
+    margin-top: -60px;
+}
+
+article p:nth-last-of-type(1){
+   font-size: 16pt;
+   color: white;
+   margin-top: 30px;
+}
+/*article:nth-last-of-type(1){
+     background-color: rgb(39, 38, 38);
+     padding: 20px;
+     border-radius: 10px;
+ }*/
+
+article h2:nth-last-of-type(1){
+    font-size: 16pt;
+    color: white;
+    margin-top: -60px;
+ }
+article figcaption{
+    text-align: center;
+    color: white;
+}
+footer{
+    width: 100%;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color:rgb(51, 49, 49); 
+    margin-bottom: 0px;
+    height: 100px;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    justify-content: space-evenly;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+   
+}
+button{
+    display: none;
+}

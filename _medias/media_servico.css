@@ -1,0 +1,46 @@
+@media screen and (min-width:0px) and (max-width:480px){
+
+    section  header{
+            width: 100%;
+            justify-content: center;
+        }
+    section header h2{
+        width: 100%;
+        font-size: 8pt;
+        margin: 20px 0px 20px 30px; 
+    }
+    section{
+        width: 100%;
+        margin: -10px;
+    }
+    section article{
+        width: 100%;
+        margin: 10px;
+        background-color: transparent;
+        font-size: 9pt; 
+    }
+    section article#art-1 div p{
+        width: 100%;
+        font-size: 9pt;
+        padding: 0px;
+        margin: 0px;
+        text-align: left;
+    }
+    section article#art-1{
+        margin: 0px 5px 0px 12px;
+        padding: 5px;
+        text-indent: 10px;
+    }
+    section article img{
+        max-width: 100%;
+    margin-bottom: 16px;
+        
+    }
+    section article:nth-last-of-type(1){
+        width: 100%;
+        padding: 15px;
+        margin: 10px 0px 0px 18px;
+    }
+
+}
+
