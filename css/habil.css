@@ -23,15 +23,13 @@ section article img{
     margin-top: 20px;
     width: 250px;
 }
-section article{
-    width: 400px;
-    justify-content: space-between;
-}
 section article {
     width: 400px;
     padding: 20px;
     border-radius: 10px;
     background-color: rgb(44, 43, 43);
+    justify-content: space-between;
+
 }
 section article:nth-last-of-type(2){
     margin-left: 50px;

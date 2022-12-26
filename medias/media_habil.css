@@ -68,4 +68,63 @@
        text-align: center;
     }
 
+}
+
+/*______RESPONSVIDADE PARA TABLETS_______________*/
+@media screen and (min-width:501px) and (max-width:800px){
+    header#cabecalho2{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
     }
+    section{
+        width: 100%;
+        margin: 8px ; 
+        border-radius: 10px;
+    }
+    section article{
+        width: 100%;
+        padding: 8px;
+        background-color: transparent;
+    }
+    header#cabecalho2 h2{
+        width: 100%;
+        font-size: 12pt;
+        margin: 0px -10px 0px 10px;
+        text-align: center;
+    }
+    section article:nth-last-of-type(2){
+        justify-content: center;
+        width: 100%; 
+        margin:0 auto;
+        padding: 5px;
+    }
+    section article img{
+        margin-top: 20px;
+        max-width:100%;
+    }
+    section article#img div p{
+        font-size: 12pt;
+        text-align: left;
+        padding: 2px;
+    }
+    section article#abil{
+        width: 100%;
+        margin: 20px 0px 0px 5px;
+        color: white;
+        text-transform: uppercase;
+    }
+    section article#abil progress{
+        height: 16px;
+        width: 150px;
+    }
+    section article#abil p:nth-last-of-type(1){
+        margin-top: 10px;
+        font-size: 11pt;
+    }
+    section article#abil p{
+        font-size: 11pt;
+        text-align: left;
+        margin: 6px;
+}
+}

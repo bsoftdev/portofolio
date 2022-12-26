@@ -10,12 +10,10 @@ GALAXY S0 10
     }
     body{
         overflow-x: hidden;
-	
     }
     div#bt {
       width: 100%;
       height: 30px;
-     
     }
     div#bt button,div#bt{
         display: flex;
@@ -68,79 +66,204 @@ GALAXY S0 10
         width: 100%;
         margin-top: 5px;
         margin-left: -10px;
-        
     }
      nav#menu ul li {
             padding: 5px;
-            text-align: center;
-            
+            text-align: center;      
     }
     nav#menu ul li a{
-        font-size: 8pt;
-        
+        font-size: 8pt;  
     }
     nav#menu ul li:hover{
         background-color:transparent;
         border-radius: 10px;
     }
-
     nav#menu ul li:nth-last-of-type(1){
         background-color:  transparent;
         border-radius: 10px;
     }
-    
+    section {
+        width: 100%;
+        margin-top: 30px;
+    }
+    section article img{
+        max-width: 50%;
+    }
+    article h1:nth-last-of-type(1){
+        width: 100%;
+        text-align: center;
+        font-size: 16pt;
+        color: brown;
+        margin-top: 20px;
+    }
+    article p:nth-last-of-type(1){
+        width: 100%;
+        text-align: center;
+        font-size: 10pt;
+        color: white;
+     }
+     section article:nth-last-of-type(1){
+         width: 100%;
+         text-align: center;
+     }
+     section article figure{
+         width: 100%;
+         text-align: center;
+     }
+     article h2:nth-last-of-type(1){
+         width: 100%;
+         text-align: center;
+        font-size: 10pt;
+        color: white;
+        margin-top: 40px;  
+     }
+     footer{
+       height: 80px;
+       margin-top: 70px;
+     }
+     footer img{
+         width: 25px;
+         text-align: center;
+     }
+     footer p{
+        text-align: center;
+        font-size: 8pt;
+        margin: 2px;
+     }
+}
+
+/*_______________RESPONSIVIDADE PARA TABLETS_______________*/
+
+@media screen and (min-width:501px) and (max-width:800px){
+    body, header, section, article, footer {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    div#bt {
+      width: 100%;
+      height: 30px;
+    }
+    div#bt button,div#bt{
+        display: flex;
+        flex-wrap: wrap;
+        position:absolute;
+        justify-content: flex-end;
+        margin: -20px 15px 0px 3px;
+        background-color: rgb(43, 40, 40);
+    }
+    div#bt button{
+        height: 25px;
+        margin: 1px 5px 0px 3px;
+        cursor: pointer;
+    }
+    button  img{
+        width: 30px;
+    }
+    header#cabecalho{
+        justify-content: center;
+        height: 80px;
+        width: 100%;
+        align-items: center;
+        clip-path: none;
+        background-color: rgb(59, 59, 59);
+    }
+    header h1{
+        animation-name: none;
+        border: none;
+        font-size: 14pt; 
+        margin-top: 30px; 
+    }
+    header#cabecalho div#socias{
+        display: none;
+    }
+    nav#menu{
+        position: absolute;
+        width: 100%;
+        top: 10px;
+        left:10px; 
+        background-color: rgb(109, 53, 53);
+        margin-left: -10px;
+        margin-top: 70px;
+        overflow-x: hidden;
+        height: 0;
+    }
+    nav#menu ul{
+        display:block;
+        list-style: none;
+        width: 100%;
+        margin-top: 5px;
+        margin-left: -10px;
+    }
+     nav#menu ul li {
+            padding: 5px;
+            text-align: center;
+    }
+    nav#menu ul li a{
+        font-size: 8pt;
+    }
+    nav#menu ul li:hover{
+        background-color:transparent;
+        border-radius: 10px;
+    }
+    nav#menu ul li:nth-last-of-type(1){
+        background-color:  transparent;
+        border-radius: 10px;
+    }
     section article{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
     section article img{
-        max-width: 50%;
-        
-     
+        max-width: 100%;
     }
     section {
         width: 100%;
+        margin-top: 30px;
     }
     article h1:nth-last-of-type(1){
-        font-size: 16pt;
+        width: 100%;
+        text-align: center;
+        font-size: 25pt;
         color: brown;
-        margin-top: 45px;
-        position: absolute;
-       
+        margin-top: 20px;  
     }
     article p:nth-last-of-type(1){
-        font-size: 10pt;
+        width: 100%;
+        text-align: center;
+        font-size: 12pt;
         color: white;
+     }
+     section article:nth-last-of-type(1){
+         width: 100%;
+         text-align: center;
      }
      section article figure{
+         width: 100%;
          text-align: center;
-     }
-     article  figcaption{
-         font-size: 10pt;
-         text-align: center;
-         margin-left: 10px;
-         
      }
      article h2:nth-last-of-type(1){
-        font-size: 10pt;
+         width: 100%;
+         text-align: center;
+        font-size: 18pt;
         color: white;
-        margin-top: 100px;
-        text-align: center; 
+        margin-top: 40px;
      }
      footer{
-       height: 80px;
-       margin-top: 70px;
-         
+         margin-top: 150px;
      }
-     footer img{
-         width: 25px;
-         text-align: center;
-     }
-    
-     footer p{
+    footer img{
+        width: 25px;
         text-align: center;
-        font-size: 8pt;
-        margin: 2px;
-     }
+    }
+   
+    footer p{
+       text-align: center;
+       font-size: 8pt;
+       margin: 2px;      
+    }
 }

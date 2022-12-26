@@ -111,10 +111,6 @@ article h2:nth-last-of-type(1){
     font-size: 16pt;
     color: white;
     margin-top: -60px;
- }
-article figcaption{
-    text-align: center;
-    color: white;
 }
 footer{
     width: 100%;
