@@ -2,7 +2,7 @@
 GALAXY S0 10
 */
 
-@media screen and (max-device-width:360px)   {
+@media screen and (min-width:0px) and (max-width:500px)   {
     body, header, section, article, footer {
         width: 100%;
         display: flex;
