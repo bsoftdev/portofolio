@@ -34,6 +34,9 @@
     }
     section article div#icones p:nth-last-of-type(1){
         margin-top: 3px;
+        position:relative;
+        top: 20px;
+        left: -100px;
     }
     section form {
         width: 100%;
